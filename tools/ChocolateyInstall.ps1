@@ -2,15 +2,6 @@ try {
 	Update-ExecutionPolicy Unrestricted
 	Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
 
-	cinstm Cygwin
-	cinstm cyg-get
-	
-	ccygwin nc
-	ccygwin zsh
-	ccygwin curl
-	ccygwin find
-	ccygwin gnupg
-
 	cinstm ruby
 	cinstm nodejs.install
 
