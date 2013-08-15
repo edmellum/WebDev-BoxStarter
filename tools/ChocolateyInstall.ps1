@@ -42,6 +42,9 @@ try {
 	cinst IIS-WebServerManagementTools -source windowsfeatures
 	cinst IIS-RequestFiltering -source windowsfeatures
 	cinst IIS-HttpRedirect -source windowsfeatures
+	cinst IIS-ASPNET45 -source windowsfeatures
+	cinst IIS-ASPNET -source windowsfeatures
+	cinst IIS-Metabase -source windowsfeatures
 
     Write-ChocolateySuccess 'WebDev'
 } catch {
