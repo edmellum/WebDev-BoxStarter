@@ -36,6 +36,8 @@ try {
 	cinst IIS-ASPNET45 -source windowsfeatures
 	cinst IIS-ASPNET -source windowsfeatures
 	cinst IIS-Metabase -source windowsfeatures
+	
+	cwebpi UrlRewrite2
 
     Write-ChocolateySuccess 'WebDev'
 } catch {
